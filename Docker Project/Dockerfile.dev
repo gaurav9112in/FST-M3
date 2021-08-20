@@ -2,7 +2,7 @@
 FROM node:alpine
  
 # Change workdir to '/app'
-WORKDIR 'usr/app'
+WORKDIR '/usr/app'
  
 # Copy package.json into the
 # container
